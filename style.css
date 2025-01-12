@@ -1,0 +1,149 @@
+*{
+    margin: opx;
+    padding: opx;
+    box-sizing: content-box;
+}
+
+body{
+    padding: 30 auto;
+    width: 30 auto;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    align-content: center;
+    padding: 6px;
+    align-items: center;
+}
+h2 {
+    color: rgba(88, 14, 14, 0.863);
+    font-size: larger;
+}
+h3 {
+    color: green;
+    font-size: large;
+}
+h8 {
+    color: green;
+    font-size: large;
+    align-items: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    color: solid rgba(255, 0, 0, 0.904);
+    font-size: large;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    color: darkred;
+    justify-items: center;
+}
+
+.container {
+    width: 80%;
+    max-width: 450px;
+    margin: 50px auto;
+    padding: 30px;
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    margin: 20px 0px;
+    padding: 10px 23px;
+    background-color: rgba(255, 235, 205, 0.836);
+    color: black;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+button:hover{
+    /* transform: rotate(0.5deg); */
+    opacity: 0.5;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 50%;
+    padding: 20px;
+    color: #333;
+    font-size: smaller;
+}
+
+footer ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+footer a{
+    color: brown;
+    text-decoration: wavy;
+}
+
+.inputGroup {
+    width: 100%
+}
+ .inputGroup input {
+    width: 22%;
+    max-height: 100%;
+    font-size: 1.1rem;
+    padding: 20px;
+    border: none;
+    outline: none;
+    text-align: center;
+    border-radius: 15px;
+    color: black;
+    background-color: whitesmoke;
+ }
+
+ select {
+    width: 300px;
+    height: 20px;
+    font-size: 16px;
+    padding: 10px;
+    border: 2px solid green;
+    border-radius: 15px;
+    color: black;
+    background-color: whitesmoke
+ }
+
+ .input {
+    width: 100%;
+    height: 40px;
+ }
+.comment-box{
+    color: black;
+    border-color: blueviolet;
+    height: 16px;
+    width: 180px;
+    padding: 10px;
+    margin: 14px;
+    display: flex;
+    border-radius: 12px;
+}
+.comment-box input{
+    width: 180px;
+    height: 16px;
+    font-size: 1rem;
+    text-transform: capitalize;
+    padding: 10px 23px;
+    margin: 14px;
+    color: black;
+    border-radius: 11px;
+    display: flex;
+
+}
